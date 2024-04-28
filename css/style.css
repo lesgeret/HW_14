@@ -1,0 +1,179 @@
+@font-face {
+    font-family: NunitoBold;
+    src: url('../fonts/Nunitobold.woff')
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: NunitoBold, sans-serif;
+    overflow-x: hidden;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+button {
+    border: 0;
+    cursor: pointer;
+}
+
+.container {
+    width: 100vw;
+    /*height: 100%;*/
+    min-height: 100vh;
+    display: flex;
+}
+
+.hw_logo {
+    position: absolute;
+    top: 27px;
+    left: 50%;
+    transform: translateX(-48%);
+    display: block;
+}
+
+.hw-right {
+    /*background-color: rgb(96, 96, 238);*/
+    background-color: #692ae8;
+    width: 50vw;
+    padding-left: 11px;
+    padding-top: 254px;
+}
+
+.hw-right-img {
+    display: block;
+}
+
+.hw-left {
+    width: 50vw;
+    padding-top: 194px;
+    padding-bottom: 191px;
+}
+
+
+.hw-left_content {
+    display: flex;
+    flex-direction: column;
+    max-width: 454px;
+    width: 100%;
+    margin-right: 85px;
+    margin-left: auto;
+}
+
+
+.hw-left_content h1 {
+    color: rgb(0, 0, 0);
+    font-size: 36px;
+    line-height: 49px;
+    margin-bottom: 7px;
+}
+
+.hw-left_content-info {
+    color: rgb(99, 99, 99);
+    font-size: 22px;
+    line-height: 27px;
+    margin-bottom: 67px;
+}
+
+.hw_input {
+    width: 452px;
+    height: 60px;
+    border: 0;
+    border-bottom: 1px solid rgb(198, 198, 196);
+    margin-bottom: 20px;
+    outline: none;
+    color: rgb(50, 50, 50);
+    font-family: NunitoBold, sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 27px;
+    padding-top: 20px;
+}
+
+form div {
+    position: relative;
+}
+
+.input-label-name {
+    color: rgb(198, 198, 196);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 27px;
+    position: absolute;
+}
+
+.input-repeat-password {
+    margin-bottom: 30px;
+}
+
+.checkbox {
+    color: rgb(99, 99, 99);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 27px;
+}
+.signup_link, .account_link {
+    text-align: center;
+}
+
+.btn {
+    width: 210px;
+    height: 70px;
+    border-radius: 40px;
+    background: rgb(234, 15, 67);
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    line-height: 27px;
+    font-weight: 700;
+    font-family: NunitoBold, sans-serif;
+    margin-top: 40px;
+    margin-bottom: 44px;
+}
+
+.account_link {
+    color: rgb(99, 99, 99);
+    font-size: 16px;
+    line-height: 27px;
+}
+
+.popup {
+    display: none;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    /*width: 100vw;*/
+    margin: 0;
+    top: 0;
+    left: 0;
+    background: rgba(8, 8, 8, 0.56);
+
+}
+
+.message-window {
+    background-color: white;
+    width: 300px;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 30px 30px 0 30px;
+    color: #565454;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+.popup-btn {
+    width: 100px;
+}

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KZ_8</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+<img class="hw_logo" src="img/homeWorks_logo.png" alt="logo">
+<section class="container">
+    <div class="hw-left">
+        <div class="hw-left_content">
+            <h1 id="hw-h1">Get your free account</h1>
+            <div class="hw-left_content-info">Try homeWorks BUSINESS free for 15 days. Downgrade to Basic (Free
+                Forever) anytime.
+            </div>
+            <form action="#">
+
+                <div>
+                    <label for="fullname" class="input-label-name" id="label-fullname">Full Name</label>
+                    <input type="text" id="fullname" class="hw_input input-name" name="name" required>
+                </div>
+
+                <div>
+                    <label for="username" class="input-label-name" id="label-username">Your username </label>
+                    <input type="text" id="username" class="hw_input input-username" name="username" required>
+                </div>
+
+                <div>
+                    <label for="email" class="input-label-name" id="label-email">E-mail</label>
+                    <input type="email" id="email" class="hw_input input-mail" name="email" required>
+                </div>
+
+                <div>
+                    <label for="pwd" class="input-label-name" id="label-password">Password</label>
+                    <input type="password" id="pwd" class="hw_input input-password" title="От 8 до 15 символов, минимум 1 цифра, спец.символ и заглавная буква" required>
+                </div>
+
+                <div>
+                    <label for="repeat-pwd" class="input-label-name" id="label-repeat-pwd">Repeat Password</label>
+                    <input type="password" id="repeat-pwd" class="hw_input input-password input-repeat-password"
+                           required>
+                </div>
+                <div>
+                    <div class="checkbox">
+                        <label for="check" id="checkbox-label">
+                            <input type="checkbox" name="agree" id="check" class="checkbox"> Agree to our Terms of
+                            Service and Privacy Statement
+                        </label>
+                    </div>
+                </div>
+            </form>
+            <div class="signup_link">
+                <button class="btn" id="signup_btn">Sign Up</button>
+            </div>
+            <a href="#" class="account_link" id="account_link">Already have an account?</a>
+        </div>
+    </div>
+    <div class="hw-right">
+        <img class="hw-right-img" src="img/image_rocket.png" alt="rocket">
+    </div>
+</section>
+
+<div class="popup" id="popup">
+    <div class="message-window">
+        <div class="message-window-text">A link has been sent to your email, follow it to complete registration</div>
+        <button class="btn popup-btn" id="popup-btn">OK</button>
+    </div>
+</div>
+
+<script src="scripts/script.js"></script>
+
+</body>
+
+</html>
