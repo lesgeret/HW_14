@@ -102,10 +102,8 @@ window.onload = function () {
         person.username = inputUserName.value;
         person.email = inputEmail.value;
         person.password = inputPwd.value;
-        console.log(person);
 
         let clientsArray = []; // создали массив
-        console.log(clientsArray);
 
         let clients = localStorage.getItem('clients');
         if (clients) {
@@ -235,8 +233,8 @@ window.onload = function () {
                 }
             }
 
-                inputUserName.value = "";
-                inputPwd.value = "";
+                // inputUserName.value = "";
+                // inputPwd.value = "";
 
         } // завершение функции loginFunction
 
