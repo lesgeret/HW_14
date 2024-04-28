@@ -45,7 +45,7 @@ window.onload = function () {
     // описание функции при нажатии на кнопку Sign Up
     let signUpFunction = function () {
 
-        if ((/[\d]+[\S]+/gi).test(inputFullName.value) || !inputFullName.value) { //только буквы и пробелы в Full Name
+        if ((/[^a-zа-я\s]+/gi).test(inputFullName.value) || !inputFullName.value) { //только буквы и пробелы в Full Name
             inputFullName.style.borderBottom = "2px solid red";
             fullnameAlert.style.display = "inline";
             return;
